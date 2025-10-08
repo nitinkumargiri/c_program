@@ -1,8 +1,13 @@
+//generate a random number fron 0 to 100 
 #include <stdio.h>
-int main(){
-    int a = 10;
-    int b = 40;
-    printf("%d",a);
-    printf("%d",b);
-    return 0;
+#include <stdlib.h>
+#include <time.h>
+int generaterandomnumber(int n){
+    srand(time(NULL));
+    return rand()%n;
 }
+ int main(){
+    // srand(time(NULL));
+     printf("YOUR number 0 to 100 is %d\n",generaterandomnumber(2));
+     return 0;
+    }
