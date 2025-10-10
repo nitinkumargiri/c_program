@@ -33,6 +33,23 @@ int main (){
     c = a * b;
     printf("the result is : %d\n\n", c);
 
+    //Devide the two value together
+    printf("FOR division VALUE...\n\n");
+    int x ,y ,div;
+    printf("enter first number: ");
+    scanf("%d",&x);
+    printf("enter your second no: ");
+    scanf("%d", &y);
 
+    if (y != 0)
+    {
+        div = x /y;
+        printf("the result is : %d\n",div);
+            
+    }else{
+        printf("ERROR: devided by zero");
+    }
+    
+    
     return 0;
 }
