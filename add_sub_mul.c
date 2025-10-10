@@ -20,7 +20,19 @@ int main (){
 
     //now we will sum num1 + num2
     sum = num0 + num9;
-    printf("the sum of  your number is %d",sum);
+    printf("the sum of  your number is %d\n\n",sum);
     
+    //mulltiply the two value together
+    printf("FOR MULTIPLY VALUE...\n\n");
+    int a ,b ,c;
+    printf("enter first number: ");
+    scanf("%d",&a);
+    printf("enter your second no: ");
+    scanf("%d", &b);
+
+    c = a * b;
+    printf("the result is : %d\n\n", c);
+
+
     return 0;
 }
