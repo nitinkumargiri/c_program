@@ -9,5 +9,22 @@ int main(){
 
     printf("Enter password length: ");
     scanf("%d",length);
+
+    //Generate random number.
+
+    srand(time(0));
+    for ( i = 0; i < length; i++)
+    {
+        int index = rand() % (sizeof(charecter) - 1);
+        password[i] = charecter;
+        
+    }
+    //end an string.
+    password[length] = '\0';
+
+    printf("Generate password: %s", password);
+
+    return 0;
     
+
 }
