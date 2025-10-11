@@ -9,7 +9,7 @@ int main (){
         printf("Enter tour message: ");
         gets(message);  //taking for simple input it is easy to take input.
 
-        if (strcmp(message, "exit") == 0)
+        if (strcmp(message, "exit") == 0)  // strcmp() use to cheaks if the user type is "exit" to stopp the chat.
         {
             printf("chatt ended....\n");
             break;
