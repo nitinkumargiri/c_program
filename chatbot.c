@@ -38,7 +38,12 @@ int main (){
         }else if (strstr(input, "who is your woner") != NULL || strstr(input, "who is invent you") != NULL
     || strstr(input, "who is make you") != NULL){
         printf("Nobody is my ower!...Better luck next time...! ");
+    }if (strstr(input, "what can you do") != NULL || strstr(input, "what can you do for me") != NULL)
+    {
+        printf("yes! I can clear your dought! solve problem! I will try to do everything fore you!");
+    
     }
+    
                 
         else{
             printf("chatbot: i'm not sure how to respond to that.\n");
