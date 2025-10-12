@@ -17,17 +17,23 @@ int main (){
         {
             printf("Good bye ..\n");
             break;
-            /* code */
+            
         }else if (strstr(input, "hi") != NULL ||strstr(input, "hello") != NULL)
         {
             printf("chatbot hi  there! what can i do for you?\n");
-            /* code */
-        }else if (strstr(input, "how are you") != NULL || strstr(input, "whats up") !=  NULL || strstr (input, "whats going on") != NULL){
-            printf("CHATYBOT: I am GODD! have a great day?!..");
+            
+        }if (strstr(input, "where are you from") != NULL || strstr(input, "which state do you leave") != NULL)
+        {
+            printf(" chatbot: I am belong from pachrukhi ,siwan (bihar)! how can i help you! ?.\n");
+        
+        }
+        
+        else if (strstr(input, "how are you") != NULL || strstr(input, "whats up") !=  NULL || strstr (input, "whats going on") != NULL){
+            printf("CHATYBOT: I am GODD! have a great day?!..\n");
         }if (strstr(input, "how was your day today") != NULL || strstr(input, "whats going on today") != NULL 
         || strstr(input, "how was your day") != NULL)
         {
-            printf("everything was good!..and how  was your day today ?");
+            printf("everything was good!..and how  was your day today ?\n");
             /* code */
         }
                 
