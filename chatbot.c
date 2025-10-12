@@ -22,7 +22,10 @@ int main (){
         {
             printf("chatbot hi  there! what can i do for you?\n");
             /* code */
-        }else{
+        }else if (strstr(input, "how are you") != NULL || strstr(input, "whats up") != NULL){
+            printf("CHATYBOT: I am fine! have a great day?!..");
+        }
+        else{
             printf("chatbot: i'm not sure how to respond to that.\n");
         }
         return 0;
