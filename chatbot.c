@@ -24,7 +24,13 @@ int main (){
             /* code */
         }else if (strstr(input, "how are you") != NULL || strstr(input, "whats up") !=  NULL || strstr (input, "whats going on") != NULL){
             printf("CHATYBOT: I am GODD! have a great day?!..");
-        }        
+        }if (strstr(input, "how was your day today") != NULL || strstr(input, "whats going on today") != NULL 
+        || strstr(input, "how was your day") != NULL)
+        {
+            printf("everything was good!..and how  was your day today ?");
+            /* code */
+        }
+                
         else{
             printf("chatbot: i'm not sure how to respond to that.\n");
         }
