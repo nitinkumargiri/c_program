@@ -20,7 +20,7 @@ int seven = 7;
 int eight =8;
 int nine = 9;
 int ten = 10;
-int num1 = 10;
+int num1 = 11;
 printf("table of %d\n",num);
 for (int i = 1; i < num1; i++)
 { 
