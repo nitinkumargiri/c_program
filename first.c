@@ -18,6 +18,7 @@ int five = 5;
 int six = 6;
 int seven = 7;
 int eight =8;
+int nine = 9;
 int num1 = 10;
 printf("table of %d\n",num);
 for (int i = 1; i < num1; i++)
@@ -55,6 +56,12 @@ for (int i = 1; i < num1; i++)
     printf("%d *%d = %d\n",eight,i, eight *i);
     /* code */
 }
+for (int i = 1; i < num1; i++)
+{
+    printf("%d * %d =%d\n",nine,i, nine * i);
+    /* code */
+}
+
 
 
 
