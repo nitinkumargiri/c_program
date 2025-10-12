@@ -10,8 +10,22 @@
 //     return 0;
 // }
 #include <stdio.h>
-#include <string.h>
 int main(){
-    char index [100];
-    printf(" welcom to CHATBOT: ! how can i help you ")
+int num = 2;
+int the = 3;
+int num1 = 10;
+printf("table of %d\n",num);
+for (int i = 1; i < num1; i++)
+{ 
+    printf("%d * %d = %d\n", num,i, num * i);
+    /* code */
+}
+for (int i = 1; i < num1; i++)
+{
+    printf("%d * %d = %d\n",the,i, the * i);
+    /* code */
+}
+
+return 0;
+
 }
