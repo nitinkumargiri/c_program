@@ -11,6 +11,7 @@
 // }
 #include <stdio.h>
 int main(){
+int one = 1;
 int num = 2;
 int the = 3;
 int four = 4;
@@ -22,6 +23,12 @@ int nine = 9;
 int ten = 10;
 int num1 = 11;
 printf("table of %d\n",num);
+for (int i = 1; i < num1; i++)
+{
+    printf("%d * %d = %d\n",one ,i, one * i);
+    /* code */
+}
+
 for (int i = 1; i < num1; i++)
 { 
     printf("%d * %d = %d\n", num,i, num * i);
