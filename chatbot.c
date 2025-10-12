@@ -35,7 +35,10 @@ int main (){
         {
             printf("everything was good!..and how  was your day today ?\n");
             /* code */
-        }
+        }else if (strstr(input, "who is your woner") != NULL || strstr(input, "who is invent you") != NULL
+    || strstr(input, "who is make you") != NULL){
+        printf("Nobody is my ower!...Better luck next time...! ");
+    }
                 
         else{
             printf("chatbot: i'm not sure how to respond to that.\n");
