@@ -13,6 +13,7 @@
 int main(){
 int num = 2;
 int the = 3;
+int four = 4;
 int num1 = 10;
 printf("table of %d\n",num);
 for (int i = 1; i < num1; i++)
@@ -25,6 +26,12 @@ for (int i = 1; i < num1; i++)
     printf("%d * %d = %d\n",the,i, the * i);
     /* code */
 }
+for (int i = 1; i < num1; i++)
+{
+    printf("%d * %d = %d\n", four ,i,four * i);
+    /* code */
+}
+
 
 return 0;
 
