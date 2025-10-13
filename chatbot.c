@@ -18,7 +18,7 @@ int main (){
             printf("Good bye ..\n");
             break;
             
-        }else if (strstr(input, "hi") != NULL ||strstr(input, "hello") != NULL)
+        }else if (strstr(input, "hi") != NULL ||strstr(input, "hello") != NULL || strstr(input, "hii") != NULL)
         {
             printf("chatbot hi  there! what can i do for you?\n");
             
@@ -50,7 +50,7 @@ int main (){
 || strstr(input, "whats your favruits dish") != NULL || strstr(input, "what your favourite food") != NULL)
     {
         printf("chatbot: for your kind information! I can not eat  anything! what can i do for you?");
-        /* code */
+
     }
     
     
