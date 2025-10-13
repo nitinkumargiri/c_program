@@ -49,7 +49,7 @@ int main (){
     }if (strstr(input, "what is your favourite food") != NULL || strstr(input, "whats your favourite food") != NULL
 || strstr(input, "whats your favruits dish") != NULL || strstr(input, "what your favourite food") != NULL)
     {
-        printf("chatbot: for your kind information! I can not eat anything");
+        printf("chatbot: for your kind information! I can not eat  anything! what can i do for you?");
         /* code */
     }
     
