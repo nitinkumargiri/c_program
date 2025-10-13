@@ -47,7 +47,7 @@ int main (){
     {
         printf("chatbot: my name is chatbot! how can i help you!");
     }if (strstr(input, "what is your favourite food") != NULL || strstr(input, "whats your favourite food") != NULL
-|| strstr(input, "whats your favruits dish") != NULL)
+|| strstr(input, "whats your favruits dish") != NULL || strstr(input, "what your favourite food") != NULL)
     {
         printf("chatbot: for your kind information! I can not eat anything");
         /* code */
