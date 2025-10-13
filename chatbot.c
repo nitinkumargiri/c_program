@@ -42,7 +42,13 @@ int main (){
     {
         printf("yes! I can clear your dought! solve problem! I will try to do everything fore you!\n");
 
+    }else if (strstr(input, "your name") != NULL || strstr(input, "what is your name") != NULL
+||strstr(input, "whats your name") != NULL)
+    {
+        printf("chatbot: my name is chatbot! how can i help you!");
+        /* code */
     }
+    
     
                 
         else{
