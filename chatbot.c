@@ -46,8 +46,13 @@ int main (){
 ||strstr(input, "whats your name") != NULL)
     {
         printf("chatbot: my name is chatbot! how can i help you!");
+    }if (strstr(input, "what is your favourite food") != NULL || strstr(input, "whats your favourite food") != NULL
+|| strstr(input, "whats your favruits dish") != NULL)
+    {
+        printf("chatbot: for your kind information! I can not eat anything");
         /* code */
     }
+    
     
     
                 
