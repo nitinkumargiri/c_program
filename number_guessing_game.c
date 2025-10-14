@@ -15,6 +15,16 @@ int main (){
 
     scanf("%d", &guess);
     printf("generated number is: %d\n", numbertoguess);
-
-return 0;
+    if (guess < numbertoguess)
+    {
+        printf("too low...!\n");
+    }else if (guess > numbertoguess)
+    {
+        printf("too height....!\n");
+    
+    }else{
+        printf("   congratulation: you have guess the no in %d tries.\n",numbertotries);
+    }
+    
+    return 0;
 }
