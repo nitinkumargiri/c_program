@@ -56,8 +56,12 @@ int main (){
     }if (strstr(input, "do you like cricket") != NULL || strstr(input, "do you like any game") != NULL)
     {
         printf("I like every games! how can i help you?");
+    }else if (strstr(input,"which cricketer do you like") != NULL)
+    {
+        printf("virat lokhi & MS Dhoni");
         /* code */
     }
+    
     
     
     
