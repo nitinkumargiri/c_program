@@ -55,7 +55,7 @@ int main (){
         printf("every song is my favourite!  I can play any song ! How  can i help you?");
     }if (strstr(input, "do you like cricket") != NULL || strstr(input, "do you like any game") != NULL)
     {
-        printf("I like every games");
+        printf("I like every games! how can i help you?");
         /* code */
     }
     
