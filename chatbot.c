@@ -58,7 +58,7 @@ int main (){
         printf("I like every games! how can i help you?");
     }else if (strstr(input,"which cricketer do you like") != NULL || strstr(input, "who is your favourite cricketer") != NULL)
     {
-        printf("virat lokhi & MS Dhoni & hardik pandya! How can i help you tell me?");
+        printf("virat lokhi & MS Dhoni & the hardik pandya! How can i help you tell me?");
         /* code */
     }
     
