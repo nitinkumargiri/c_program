@@ -59,16 +59,9 @@ int main (){
     }else if (strstr(input,"which cricketer do you like") != NULL || strstr(input, "who is your favourite cricketer") != NULL)
     {
         printf("virat lokhi & MS Dhoni & the hardik pandya! How can i help you tell me?");
-        /* code */
+    
     }
-    
-    
-    
-    
-    
-    
-                
-        else{
+     else{
             printf("chatbot: i'm not sure how to respond to that.\n");
         }
         

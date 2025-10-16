@@ -8,7 +8,6 @@
 //     printf("\nmy name is abhi");
 //     printf("hi klumar");
 //     return 0;
-// }
 #include <stdio.h>
 int main(){
 int one = 1;
@@ -21,7 +20,9 @@ int seven = 7;
 int eight =8;
 int nine = 9;
 int ten = 10;
+int eleven = 11;
 int num1 = 11;
+
 printf("table of %d\n",num);
 for (int i = 1; i < num1; i++)
 {
@@ -74,6 +75,12 @@ for (int i = 1; i < num1; i++)
     printf("%d * %d = %d\n",ten ,i, ten*i);
     /* code */
 }
+for (int i = 1; i < num1; i++)
+{
+    printf("%d *%d =%d\n",eleven,i,eleven*i);
+    /* code */
+}
+
 
 
 
@@ -84,3 +91,4 @@ for (int i = 1; i < num1; i++)
 return 0;
 
 }
+
