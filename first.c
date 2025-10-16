@@ -26,6 +26,7 @@ int thirteen = 13;
 int fourteen = 14;
 int fiveteen = 15;
 int sixteen = 16;
+int seventeen = 17;
 int num1 = 11;
 
 printf("table of %d\n",num);
@@ -108,6 +109,11 @@ for (int i = 1; i < num1; i++)
 for (int i = 1; i < num1; i++)
 {
     printf("%d *%d =%d\n",sixteen,i,sixteen*i);
+    /* code */
+}
+for (int i = 1; i < num1; i++)
+{
+    printf("%d *%d =%d\n",seventeen,i,seventeen*i);
     /* code */
 }
 
