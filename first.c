@@ -24,7 +24,7 @@ int eleven = 11;
 int twelve = 12;
 int thirteen = 13;
 int fourteen = 14;
-int fiveteen 15;
+int fiveteen = 15;
 int num1 = 11;
 
 printf("table of %d\n",num);
