@@ -21,6 +21,7 @@ int eight =8;
 int nine = 9;
 int ten = 10;
 int eleven = 11;
+int twelve = 12;
 int num1 = 11;
 
 printf("table of %d\n",num);
@@ -80,7 +81,11 @@ for (int i = 1; i < num1; i++)
     printf("%d *%d =%d\n",eleven,i,eleven*i);
     /* code */
 }
-
+for (int i = 1; i < num1; i++)
+{
+    printf("%d *%d =%d\n",twelve,i,twelve*i);
+    /* code */
+}
 
 
 
