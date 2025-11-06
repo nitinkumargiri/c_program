@@ -60,7 +60,11 @@ int main (){
     {
         printf("virat lokhi & MS Dhoni & the hardik pandya! How can i help you tell me?");
     
+    }if (strstr(input,"what is noun") !=NULL || strstr(input,"tell me about noun") != NULL)
+    {
+        printf("in a simpe way a noun is the name of person place animal or thing or any thing you can feel and touch this is called noun.");
     }
+    
      else{
             printf("chatbot: i'm not sure how to respond to that.\n");
         }
