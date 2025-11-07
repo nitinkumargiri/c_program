@@ -63,7 +63,7 @@ int main (){
     }if (strstr(input,"what is noun") !=NULL || strstr(input,"tell me about noun") != NULL)
     {
         printf("in a simpe way a noun is the name of person place animal or thing or any thing you can feel and touch this is called noun.");
-    }else if (strstr(input, "what is your aim") != NULL)
+    }else if (strstr(input, "what is your aim") != NULL || strstr(input, "what is your work") != NULL)
     {
         printf("my aim is get a problem and solve it");
     }
