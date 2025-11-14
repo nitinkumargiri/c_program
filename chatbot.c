@@ -65,7 +65,9 @@ int main (){
         printf("in a simpe way a noun is the name of person place animal or thing or any thing you can feel and touch this is called noun.");
     }else if (strstr(input, "what is your aim") != NULL || strstr(input, "what is your work") != NULL)
     {
-        printf("my aim is get a problem and solve it");
+        printf("my aim is get a problem and solve it! how can i help you");
+    }if (strstr(input,"who are you") != NULL){
+        printf("i am chatbot .");
     }
     
     
