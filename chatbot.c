@@ -66,8 +66,8 @@ int main (){
     }else if (strstr(input, "what is your aim") != NULL || strstr(input, "what is your work") != NULL)
     {
         printf("my aim is get a problem and solve it! how can i help you");
-    }if (strstr(input,"who are you") != NULL){
-        printf("i am chatbot .");
+    }if (strstr(input,"who are you") != NULL || strstr(input,"what can you does")){
+        printf("i am chatbot .! ,I can solve your problem ");
     }
     
     
