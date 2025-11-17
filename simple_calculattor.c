@@ -18,5 +18,21 @@ int main(){
         printf("%d",a - b);
         
     }
+    else if (operator == '*')
+    {
+        printf("%d",a * b);
+        
+    }
+    else if (operator == '/')
+    {
+        printf("%d", a/b);
+        
+    }
+    else{
+        printf("invailed operator");
+    }
+    return 0;
+    
+    
     
 }
