@@ -25,7 +25,14 @@ int main(){
     }
     else if (operator == '/')
     {
-        printf("%d", a/b);
+        if (b != 0)
+        {
+            printf("%d",a/b);
+            
+        }else{
+            printf("error diveded by 0");
+        }
+    
         
     }
     else{
