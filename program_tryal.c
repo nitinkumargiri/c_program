@@ -11,6 +11,9 @@ int main(){
     printf("enter your no : ");
     scanf("%f", fahrenheit);
 
+    celsius = (fahrenheit* 5/9) + 90;
+    printf("%.2f fahrenheit = %.2f celscius",celsius,fahrenheit);
+
     return 0;
 
 
