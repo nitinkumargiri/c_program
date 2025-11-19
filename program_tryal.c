@@ -3,6 +3,7 @@
 int main(){
     float celsius,fahrenheit;
     printf("enter your number : ");
+    scanf("%f",&celsius);
 
 }
     
