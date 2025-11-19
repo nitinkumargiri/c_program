@@ -9,6 +9,7 @@ int main(){
     printf("%.2f celscius = %.2f fahrenheit\n",celsius,fahrenheit);
 
     printf("enter your no : ");
+    scanf("%f", fahrenheit);
 
     return 0;
 
