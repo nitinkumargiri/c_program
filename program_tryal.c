@@ -3,7 +3,7 @@
 int main(){
     int a;
     printf ("enter your no: ");
-    scanf("%d",a);
+    scanf("%d",&a);
 
     if (a %2 == 0)
     {
