@@ -68,7 +68,7 @@ int main (){
         printf("my aim is get a problem and solve it! how can i help you");
     }if (strstr(input,"who are you") != NULL || strstr(input,"what can you does")){
         printf("i am chatbot .! ,I can solve your problem ");
-    }if (strstr(input,"date") != NULL)
+    }if (strstr(input,"date") != NULL || strstr (input,"Date") != NULL)
     {
         printf("the date is : 27/11/2025");
     }
