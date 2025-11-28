@@ -70,7 +70,7 @@ int main (){
         printf("i am chatbot .! ,I can solve your problem ");
     }if (strstr(input,"date") != NULL || strstr (input,"Date") != NULL)
     {
-        printf("the date is : 27/11/2025");
+        printf("the date is : 27/11/2025\n How can i help you");
     }
     
     
