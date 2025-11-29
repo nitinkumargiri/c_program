@@ -52,30 +52,30 @@ int main (){
         printf("chatbot: for your kind information! I can not eat  anything! what can i do for you?");
     }else if (strstr(input, "what is your favourite song") != NULL || strstr(input, "whats your favourite song") != NULL)
     {
-        printf("every song is my favourite!  I can play any song ! How  can i help you?");
+        printf("every song is my favourite!  I can play any song ! How  can i help you?\n");
     }if (strstr(input, "do you like cricket") != NULL || strstr(input, "do you like any game") != NULL)
     {
-        printf("I like every games! how can i help you?");
+        printf("I like every games! how can i help you?\n");
     }else if (strstr(input,"which cricketer do you like") != NULL || strstr(input, "who is your favourite cricketer") != NULL)
     {
-        printf("virat lokhi & MS Dhoni & the hardik pandya! How can i help you tell me?");
+        printf("virat lokhi & MS Dhoni & the hardik pandya! How can i help you tell me?\n");
     
     }if (strstr(input,"what is noun") !=NULL || strstr(input,"tell me about noun") != NULL)
     {
-        printf("in a simpe way a noun is the name of person place animal or thing or any thing you can feel and touch this is called noun.");
+        printf("in a simpe way a noun is the name of person place animal or thing or any thing you can feel and touch this is called noun.\n");
     }else if (strstr(input, "what is your aim") != NULL || strstr(input, "what is your work") != NULL)
     {
-        printf("my aim is get a problem and solve it! how can i help you");
+        printf("my aim is get a problem and solve it! how can i help you\n");
     }if (strstr(input,"who are you") != NULL || strstr(input,"what can you does")){
-        printf("i am chatbot .! ,I can solve your problem ");
+        printf("i am chatbot .! ,I can solve your problem\n ");
     }if (strstr(input,"date") != NULL || strstr (input,"Date") != NULL)
     {
-        printf("the date is : 27/11/2025\n How can i help you");
+        printf("the date is : 27/11/2025\n How can i help you\n");
     }else if (strstr(input,"bye") != NULL || strstr(input,"see you") != NULL || strstr(input,"talk later") != NULL){
         printf("Good bye! Have a nice day");
     }if (strstr(input,"i need help") != NULL || strstr(input,"i want help") != NULL)
     {
-        printf("sure! tell me what you need help with ");
+        printf("sure! tell me what you need help with\n");
     }
     
     
@@ -85,7 +85,7 @@ int main (){
             printf("chatbot: i'm not sure how to respond to that.\n");
         }
         
-        return 0;
+    
         
     }
     
