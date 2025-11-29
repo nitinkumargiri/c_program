@@ -71,6 +71,8 @@ int main (){
     }if (strstr(input,"date") != NULL || strstr (input,"Date") != NULL)
     {
         printf("the date is : 27/11/2025\n How can i help you");
+    }else if (strstr(input,"bye") != NULL){
+        printf("Good bye! Have a nice day");
     }
     
     
