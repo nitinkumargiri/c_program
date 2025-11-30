@@ -76,6 +76,8 @@ int main (){
     }if (strstr(input,"i need help") != NULL || strstr(input,"i want help") != NULL || strstr (input,"help me") != NULL ||  strstr(input,"help") != NULL)
     {
         printf("sure! tell me what you need help with\n");
+    }else if (strstr(input,"when world will distroy") != NULL){
+        printf("Accordig to times of india ! the world will distroy in 2026 \n");
     }
     
     
