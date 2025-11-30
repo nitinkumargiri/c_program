@@ -13,7 +13,7 @@ int main (){
         //remove new line character from input
         input[strcspn(input,"\n")] = 0;
 
-        if (strcmp(input, "exit") == 0 || strcmp(input, "quit") == 0)
+        if (strcmp(input, "exit") == 0 || strcmp(input, "quit") == 0 || strcmp(input,"stop") == 0)
         {
             printf("Good bye ..\n");
             break;
