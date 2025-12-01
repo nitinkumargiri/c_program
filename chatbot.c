@@ -4,6 +4,7 @@ int main (){
     char input [100];
 
     printf ("WELCOM TO CHATBOT..How Can I Help You! Today!.\n\n");
+    printf("=== Author __ Nitin Giri__ ===\n");
 
     while (1)
     {
