@@ -78,9 +78,9 @@ int main (){
         printf("sure! tell me what you need help with\n");
     }else if (strstr(input,"when world will distroy") != NULL){
         printf("Accordig to times of india ! the world will distroy in 2026 \n");
-    }if (strstr(input,"are you created by") != NULL || strstr(input,"your author") != NULL)
+    }if (strstr(input,"are you created by") != NULL || strstr(input,"your author") != NULL || strstr(input,"your owner") != NULL)
     {
-        printf("i am created by!__ nitin giri");
+        printf("i am created by!__ nitin giri\n");
         /* code */
     }
     
