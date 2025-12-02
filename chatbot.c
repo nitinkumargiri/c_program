@@ -82,8 +82,10 @@ int main (){
     }if (strstr(input,"are you created by") != NULL || strstr(input,"your author") != NULL || strstr(input,"your owner") != NULL)
     {
         printf("i am created by!__ nitin giri\n");
-        /* code */
+    }else if (strstr(input,"who is the prime minister of india") != NULL){
+        printf("the prime minister of india is __narendra modi\n");
     }
+    
     
     
     
