@@ -86,6 +86,8 @@ int main (){
         printf("the prime minister of india is __narendra modi\n");
     }if (strstr(input,"who is the first prime minister of india") != NULL || strstr(input,"first prime ministr of india") != NULL){
         printf("first prime minister of india is __Dr. jawaharlal nehru\n");
+    }else if (strstr(input,"prime minister of usa") != NULL){
+        printf("the prime minister of USA / America is __Donald trump\n");
     }
     
     
