@@ -1,6 +1,9 @@
 #include <stdio.h>
 int main (){
     int n;
+    printf("=== WELCOME===\n");
+    printf("AUTHOR :-__ NITIN GIRI __\n");
+
     printf("eter your number : ");
     scanf("%d",&n);
 
