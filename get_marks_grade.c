@@ -4,4 +4,11 @@ int main (){
     printf("enter your number : ");
     scanf("%d",&mark);
 
+    if (mark <= 100 || mark <= 80)
+    {
+        printf("first ");
+        /* code */
+    }
+    
+
 }
