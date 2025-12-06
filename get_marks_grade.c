@@ -8,7 +8,13 @@ int main (){
     {
         printf("first ");
         /* code */
+    }else if (mark <= 80 && mark <= 60)
+    {
+        printf("second ");
+        /* code */
     }
+    
+    
     
 
 }
