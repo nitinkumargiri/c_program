@@ -4,11 +4,11 @@ int main (){
     printf("enter your number : ");
     scanf("%d",&mark);
 
-    if (mark <= 100 || mark <= 80)
+    if (mark <= 100 && mark >= 80)
     {
         printf("first ");
         /* code */
-    }else if (mark <= 80 && mark <= 60)
+    }else if (mark < 80 && mark >= 60)
     {
         printf("second ");
         /* code */
