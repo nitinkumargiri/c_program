@@ -12,7 +12,12 @@ int main (){
     {
         printf("second ");
         /* code */
+    }else if (mark < 60 && mark >=30)
+    {
+        printf("third");
+        /* code */
     }
+    
     
     
     
