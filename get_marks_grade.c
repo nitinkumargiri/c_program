@@ -16,10 +16,9 @@ int main (){
     {
         printf("third");
         /* code */
+    }else{
+        printf("Invailed input...");
     }
-    
-    
-    
-    
+    return 0;
 
 }
