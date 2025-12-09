@@ -89,6 +89,8 @@ int main (){
     }else if (strstr(input,"prime minister of usa") != NULL || strstr(input,"who is the prime minister of america") != NULL || 
     strstr(input,"prime minister of usa") != NULL || strstr(input,"prime minister of america") != NULL|| strstr(input,"america prime minister is") != NULL){
         printf("the prime minister of USA / America is __Donald trump\n");
+    }if (strstr,(input,"which state is the capital of india") != NULL){
+        printf("Delhi is the capita of india..\n");
     }
     
     
