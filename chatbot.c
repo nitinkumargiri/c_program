@@ -92,7 +92,7 @@ int main (){
     }if (strstr(input,"which state is the capital of india") != NULL || strstr(input,"capital of india") != NULL ||
     strstr(input,"capital of india is")!= NULL){
         printf("Delhi is the capita of india..\n");
-    }else if (strstr(input,"which is the national flower of india")!= NULL){
+    }else if (strstr(input,"which is the national flower of india")!= NULL||strstr (input,"national flower of india is")!= NULL){
         printf("Lotus __ is the national flower of india\n");
     }
     
