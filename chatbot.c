@@ -97,6 +97,8 @@ int main (){
     }if (strstr(input,"who is the father of nation")!= NULL|| strstr(input,"father of nation is")!= NULL
     ||strstr(input,"father of nation")!= NULL){
         printf("the father of nathin is __ Mahatma Gandhi..\n");
+    }else if (strstr(input,"who is the national bird of india")!= NULL){
+        printf("picoke__ is a national bird of india");
     }
     
     
