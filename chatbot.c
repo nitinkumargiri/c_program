@@ -94,7 +94,8 @@ int main (){
         printf("Delhi is the capita of india..\n");
     }else if (strstr(input,"which is the national flower of india")!= NULL||strstr (input,"national flower of india is")!= NULL||strstr(input,"national flower of india")!= NULL){
         printf("Lotus __ is the national flower of india\n");
-    }if (strstr(input,"who is the father of nation")!= NULL|| strstr(input,"father of nation is")!= NULL){
+    }if (strstr(input,"who is the father of nation")!= NULL|| strstr(input,"father of nation is")!= NULL
+    ||strstr(input,"father of nation")!= NULL){
         printf("the father of nathin is __ Mahatma Gandhi..\n");
     }
     
