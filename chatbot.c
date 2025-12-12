@@ -101,7 +101,7 @@ int main (){
     ||strstr(input,"national bird of india")){
         printf("picoke__ is a national bird of india\n");
     }if (strstr(input,"who is the national animal of india")!= NULL||strstr(input,"national animal of india is")!= NULL
-    ||strstr(input,"national animal of india")!= NULL){
+    ||strstr(input,"national animal of india")!= NULL||strstr(input,"which animal is the national animal of india")!= NULL){
         printf("Tiger__is the national animal of india...\n");
     }
     
