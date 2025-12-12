@@ -100,7 +100,7 @@ int main (){
     }else if (strstr(input,"who is the national bird of india")!= NULL||strstr(input,"national bird of india is")!= NULL
     ||strstr(input,"national bird of india")){
         printf("picoke__ is a national bird of india\n");
-    }if (strstr(input,"who is the national animal of india")!= NULL){
+    }if (strstr(input,"who is the national animal of india")!= NULL||strstr(input,"national animal of india is")!= NULL){
         printf("Tiger__is the national animal of india...\n");
     }
     
