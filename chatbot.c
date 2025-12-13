@@ -103,7 +103,8 @@ int main (){
     }if (strstr(input,"who is the national animal of india")!= NULL||strstr(input,"national animal of india is")!= NULL
     ||strstr(input,"national animal of india")!= NULL||strstr(input,"which animal is the national animal of india")!= NULL){
         printf("Tiger__is the national animal of india...\n");
-    }else if (strstr(input,"national anthem of india is")!= NULL||strstr(input,"national anthem of india")!= NULL){
+    }else if (strstr(input,"national anthem of india is")!= NULL||strstr(input,"national anthem of india")!= NULL
+    ||strstr(input,"national song of india")!=NULL){
         printf("jan gan man__ is the national anthem of india\n");
     }
     
