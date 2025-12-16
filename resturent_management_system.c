@@ -57,7 +57,7 @@ int main() {
     } while (strcmp(choice, "yes") == 0);
 
     printf("\nTotal amount to pay: Rs %d\n", total_amount);
-    printf("Thank you for visiting!\n");
+    printf("Thank you for visiting !\n");
 
     return 0;
 }
