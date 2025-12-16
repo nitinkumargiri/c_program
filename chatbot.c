@@ -107,7 +107,7 @@ int main (){
     ||strstr(input,"national song of india")!=NULL){
         printf("jan gan man__ is the national anthem of india\n");
     }if (strstr(input,"top exam in india is")!= NULL||strstr(input,"topest exam of india")!= NULL
-    ||strstr(input,"topest exam of india is")!= NULL){
+    ||strstr(input,"topest exam of india is")!= NULL||strstr(input,"top exam of india is")!= NULL){
         printf("IIT\n");
     }
     
