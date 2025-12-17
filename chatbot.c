@@ -109,6 +109,8 @@ int main (){
     }if (strstr(input,"top exam in india is")!= NULL||strstr(input,"topest exam of india")!= NULL
     ||strstr(input,"topest exam of india is")!= NULL||strstr(input,"top exam of india is")!= NULL){
         printf("IIT\n");
+    } else if (strstr(input,"what is network")!= NULL){
+        printf("a network is a conection");
     }
     
     
