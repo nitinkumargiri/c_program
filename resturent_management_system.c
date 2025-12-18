@@ -85,6 +85,13 @@ int main(){
     printf("enter your choice do you want to order: ");
     scanf("%s",choice);
 
+    if (strcmp(item,"pizza")==120){
+        //total_amount += 120;
+    
+    printf("your total amount to pay %d",total_amount);
+    }
+
+
 
 }
 
