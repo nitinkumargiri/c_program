@@ -68,7 +68,8 @@ int main(){
     char choice [5];
     int total_amount = 0;
 
-    printf("----WELCOME TO OUR RESTURENT----\n");
+    printf("----WELCOME TO OUR RESTURENT----\n");\
+    printf("author :- ____nitin kumar giri____");
     printf("------ MENU ------\n");
     printf("pizza     : Rs 120\n");
     printf("burger    : Rs 40\n");
