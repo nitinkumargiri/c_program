@@ -110,7 +110,7 @@ int main (){
     ||strstr(input,"topest exam of india is")!= NULL||strstr(input,"top exam of india is")!= NULL){
         printf("IIT\n");
     } else if (strstr(input,"what is network")!= NULL){
-        printf("a network is a conection");
+        printf("a network is help to connect a multiple compputer a");
     }
     
     
