@@ -94,14 +94,30 @@ int main()
         total_amount += 40;
         else if (strcmp(item, "coffee") == 0)
         total_amount += 60;
+        else if (strcmp(item, "salad") == 0)
+        total_amount += 70;
+        else if (strcat(item, "tea") == 0)
+        total_amount += 20;
+        else if (strcmp(item, "paratha") == 0)
+        total_amount += 80;
+        else if (strcmp(item, "veg") == 0)
+        total_amount += 150;
+        else if (strcmp(item, "non-veg") == 0)
+        total_amount += 180;
+        else if (strcmp(item, "noodels") == 0)
+        total_amount += 50;
+        else if (strcmp(item, "milk") == 0)
+        total_amount += 30;
+        else if (strcat(item, "juice") == 0)
+        total_amount += 50;
         else
-        printf("invailed input\n");
+        printf("Sorry currently this item is not available\n");
         
         printf("\nDo you want to order anything else sir (yes/no): ");
         scanf("%s",choice);
         
     } while (strcmp(choice, "yes") == 0);
-    printf("your total order  to pay is %d\n", total_amount);
+    printf("your total amount to pay is %d\n", total_amount);
     printf("Thanku! visit again..");
 
     return 0;
