@@ -87,7 +87,7 @@ int main()
     do
     {
         printf("Enter your ordered: ");
-        scanf("%s", choice);
+        scanf("%s", item);
         if (strcmp(item, "pizza") == 0)
         total_amount += 120;
         else if (strcmp(item, "burger") == 0)
@@ -97,10 +97,13 @@ int main()
         else
         printf("invailed input\n");
         
-        printf("\nDo you want to order anything else sir: ");
+        printf("\nDo you want to order anything else sir (yes/no): ");
         scanf("%s",choice);
         
     } while (strcmp(choice, "yes") == 0);
-    printf("your total order amount is %d", total_amount);
+    printf("your total order  to pay is %d\n", total_amount);
+    printf("Thanku! visit again..");
+
+    return 0;
     
 }
