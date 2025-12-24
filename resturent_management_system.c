@@ -63,12 +63,13 @@
 // }
 #include <stdio.h>
 #include <string.h>
-int main(){
-    char item [10];
-    char choice [5];
+int main()
+{
+    char item[10];
+    char choice[5];
     int total_amount = 0;
 
-    printf("----WELCOME TO OUR RESTURENT----\n");\
+    printf("----WELCOME TO OUR RESTURENT----\n");
     printf("author :- ____nitin kumar giri____");
     printf("------ MENU ------\n");
     printf("pizza     : Rs 120\n");
@@ -82,17 +83,24 @@ int main(){
     printf("noodles   : Rs 50\n");
     printf("milk      : Rs 30\n");
     printf("juice     : Rs 50\n");
+
+    do
+    {
+        printf("Enter your ordered: ");
+        scanf("%s", choice);
+        if (strcmp(item, "pizza") == 0)
+        total_amount += 120;
+        else if (strcmp(item, "burger") == 0)
+        total_amount += 40;
+        else if (strcmp(item, "coffee") == 0)
+        total_amount += 60;
+        else
+        printf("invailed input\n");
+        
+        printf("\nDo you want to order anything else sir: ");
+        scanf("%s",choice);
+        
+    } while (strcmp(choice, "yes") == 0);
+    printf("your total order amount is %d", total_amount);
     
-    printf("enter your choice do you want to order: ");
-    scanf("%s",choice);
-
-    if (strcmp(item,"pizza")==120){
-        //total_amount += 120;
-    
-    printf("your total amount to pay %d",total_amount);
-    }
-
-
-
 }
-
