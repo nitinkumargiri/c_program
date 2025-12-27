@@ -112,7 +112,7 @@ int main()
         else if (strcmp(item, "juice") == 0)
             total_amount += 50;
         else
-            printf("Sorry currently this item is not available\n");
+            printf("\nSorry currently this item is not available\n");
 
         printf("\nDo you want to order anything else sir (yes/no): ");
         scanf("%s", choice);
